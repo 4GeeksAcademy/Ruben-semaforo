@@ -1,11 +1,23 @@
-/* 
+.red{
+    background-color: red;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.yellow{
+    background-color: yellow;
+}
 
-*/
+.green{
+    background-color: green;
+}
+
+.selected-red{
+    box-shadow: 0px 0px 20px 13px red
+}
+
+.selected-yellow{
+    box-shadow: 0px 0px 20px 13px yellow
+}
+
+.selected-green{
+    box-shadow: 0px 0px 20px 13px green
+}
