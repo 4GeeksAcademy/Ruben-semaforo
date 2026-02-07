@@ -1,3 +1,4 @@
+/* Colores base de las luces */
 .red{
     background-color: red;
 }
@@ -10,6 +11,8 @@
     background-color: green;
 }
 
+/* ✅ PATRÓN POSITIVO: Excelente uso de box-shadow para efecto glow */
+/* Este efecto da buen feedback visual al usuario */
 .selected-red{
     box-shadow: 0px 0px 20px 13px red
 }
@@ -21,3 +24,7 @@
 .selected-green{
     box-shadow: 0px 0px 20px 13px green
 }
+
+/* 💡 SUGERENCIA: Podrías agregar una clase .light para width/height */
+/* En vez de usar inline styles en el JSX */
+/* Ejemplo: .light { width: 75px; height: 75px; } */
